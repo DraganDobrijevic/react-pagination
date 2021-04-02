@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  background-color: #ccffbd;
+
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+nav {
+  padding-bottom: 1rem;
+
+  .pagination {
+    background: linear-gradient(to right, #fff, #198754);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    justify-content: center;
+  }
+
+  .page-link:hover {
+    background-color: #7eca9c;
+  }
+
+  .page-link:active,
+  .page-link:focus {
+    outline: none;
+    transform: translateY(-1px);
+    background-color: #7eca9c;
+  }
+}
